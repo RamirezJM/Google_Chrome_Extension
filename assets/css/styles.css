@@ -5,6 +5,9 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+  min-width: 300px;
+}
 h1{
   font-size: 1.5rem;
   text-align: center;
@@ -13,6 +16,7 @@ h1{
 }
 .container{
   width: 90%;
+ 
   margin: 0 auto;
   padding: .5em;
   display: flex;
@@ -60,15 +64,14 @@ h1{
   color: chocolate;
 }
 
-.fa-trash-can{
-  color: red;
-  width: 50px;
+#input-list img{
+  width: 20px;
 }
 
 #input-list li{
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items:center;
 }
 
 @media (prefers-color-scheme: dark){

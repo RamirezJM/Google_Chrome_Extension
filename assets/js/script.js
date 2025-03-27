@@ -20,7 +20,7 @@ function renderLeads() {
     if (!myLinks.startsWith('http://') && !myLinks.startsWith('https://')) {
       myLinks = 'https://' + myLinks
     }
-    listItems += `<li><a href="${myLinks}" target="_blank">${myLinks}</a><i class="fa-regular fa-trash-can delete-icon"></i></li>`
+    listItems += `<li><a href="${myLinks}" target="_blank">${myLinks}</a><img src="assets/images/delete.png"></li>`
     myList.innerHTML = listItems
   }
   myInput.value = ""
